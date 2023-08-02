@@ -16,9 +16,9 @@ public class InputView {
 		return scanner.nextLine();
 	}
 
-	public static int getTrialNumber() {
+	public static String getTrialNumber() {
 		System.out.println(TRIAL_NUMBER_INPUT_MESSAGE);
-		return scanner.nextInt();
+		return scanner.nextLine();
 	}
 
 }
